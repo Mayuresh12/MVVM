@@ -16,6 +16,7 @@
 		EA9EC7432579BF8E00009CE0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9EC7422579BF8E00009CE0 /* TableViewCell.swift */; };
 		EA9EC7462579BFA000009CE0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9EC7452579BFA000009CE0 /* Model.swift */; };
 		EA9EC74A2579BFAB00009CE0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9EC7492579BFAB00009CE0 /* ViewModel.swift */; };
+		EA9EC74E257B386A00009CE0 /* TIpCalculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9EC74D257B386A00009CE0 /* TIpCalculator.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EA9EC7422579BF8E00009CE0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		EA9EC7452579BFA000009CE0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		EA9EC7492579BFAB00009CE0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		EA9EC74D257B386A00009CE0 /* TIpCalculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TIpCalculator.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		EA9EC72C2579BF6500009CE0 /* MVVMSample2 */ = {
 			isa = PBXGroup;
 			children = (
+				EA9EC74C257B385100009CE0 /* TipCalculator */,
 				EA9EC7422579BF8E00009CE0 /* TableViewCell.swift */,
 				EA9EC72D2579BF6500009CE0 /* AppDelegate.swift */,
 				EA9EC72F2579BF6500009CE0 /* SceneDelegate.swift */,
@@ -74,6 +77,14 @@
 				EA9EC7492579BFAB00009CE0 /* ViewModel.swift */,
 			);
 			path = MVVMSample2;
+			sourceTree = "<group>";
+		};
+		EA9EC74C257B385100009CE0 /* TipCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				EA9EC74D257B386A00009CE0 /* TIpCalculator.storyboard */,
+			);
+			path = TipCalculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			files = (
 				EA9EC73A2579BF6500009CE0 /* LaunchScreen.storyboard in Resources */,
 				EA9EC7372579BF6500009CE0 /* Assets.xcassets in Resources */,
+				EA9EC74E257B386A00009CE0 /* TIpCalculator.storyboard in Resources */,
 				EA9EC7352579BF6500009CE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
