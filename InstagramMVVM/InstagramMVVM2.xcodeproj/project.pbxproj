@@ -14,6 +14,11 @@
 		EACB34392585EACB0030FB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACB34382585EACB0030FB3E /* Assets.xcassets */; };
 		EACB343C2585EACB0030FB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACB343A2585EACB0030FB3E /* LaunchScreen.storyboard */; };
 		EACB344B2585EB2E0030FB3E /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB344A2585EB2E0030FB3E /* MainTabController.swift */; };
+		EACB344F25861F110030FB3E /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB344E25861F110030FB3E /* FeedController.swift */; };
+		EACB345225861F1F0030FB3E /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB345125861F1F0030FB3E /* SearchController.swift */; };
+		EACB345525861F310030FB3E /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB345425861F310030FB3E /* ImageSelectorController.swift */; };
+		EACB345825861F3F0030FB3E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB345725861F3F0030FB3E /* NotificationController.swift */; };
+		EACB345C25861F550030FB3E /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB345B25861F550030FB3E /* ProfileController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		EACB343B2585EACB0030FB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EACB343D2585EACB0030FB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EACB344A2585EB2E0030FB3E /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		EACB344E25861F110030FB3E /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		EACB345125861F1F0030FB3E /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		EACB345425861F310030FB3E /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
+		EACB345725861F3F0030FB3E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		EACB345B25861F550030FB3E /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				EACB344A2585EB2E0030FB3E /* MainTabController.swift */,
+				EACB344E25861F110030FB3E /* FeedController.swift */,
+				EACB345125861F1F0030FB3E /* SearchController.swift */,
+				EACB345425861F310030FB3E /* ImageSelectorController.swift */,
+				EACB345B25861F550030FB3E /* ProfileController.swift */,
+				EACB345725861F3F0030FB3E /* NotificationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,7 +204,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EACB34342585EACA0030FB3E /* ViewController.swift in Sources */,
+				EACB345225861F1F0030FB3E /* SearchController.swift in Sources */,
+				EACB345825861F3F0030FB3E /* NotificationController.swift in Sources */,
 				EACB34302585EACA0030FB3E /* AppDelegate.swift in Sources */,
+				EACB344F25861F110030FB3E /* FeedController.swift in Sources */,
+				EACB345C25861F550030FB3E /* ProfileController.swift in Sources */,
+				EACB345525861F310030FB3E /* ImageSelectorController.swift in Sources */,
 				EACB344B2585EB2E0030FB3E /* MainTabController.swift in Sources */,
 				EACB34322585EACA0030FB3E /* SceneDelegate.swift in Sources */,
 			);
