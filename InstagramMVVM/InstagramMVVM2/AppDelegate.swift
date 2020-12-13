@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  InstagramMVVM
+//  InstagramMVVM2
 //
 //  Created by Mayuresh Rao on 12/12/20.
 //

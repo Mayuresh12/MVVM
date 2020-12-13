@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EACB33FF2585E6330030FB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB33FE2585E6330030FB3E /* AppDelegate.swift */; };
-		EACB34012585E6330030FB3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB34002585E6330030FB3E /* SceneDelegate.swift */; };
-		EACB34032585E6330030FB3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB34022585E6330030FB3E /* ContentView.swift */; };
-		EACB34052585E6350030FB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACB34042585E6350030FB3E /* Assets.xcassets */; };
-		EACB34082585E6350030FB3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACB34072585E6350030FB3E /* Preview Assets.xcassets */; };
-		EACB340B2585E6350030FB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACB34092585E6350030FB3E /* LaunchScreen.storyboard */; };
+		EACB34302585EACA0030FB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB342F2585EACA0030FB3E /* AppDelegate.swift */; };
+		EACB34322585EACA0030FB3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB34312585EACA0030FB3E /* SceneDelegate.swift */; };
+		EACB34342585EACA0030FB3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB34332585EACA0030FB3E /* ViewController.swift */; };
+		EACB34372585EACA0030FB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACB34352585EACA0030FB3E /* Main.storyboard */; };
+		EACB34392585EACB0030FB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACB34382585EACB0030FB3E /* Assets.xcassets */; };
+		EACB343C2585EACB0030FB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACB343A2585EACB0030FB3E /* LaunchScreen.storyboard */; };
+		EACB344B2585EB2E0030FB3E /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB344A2585EB2E0030FB3E /* MainTabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EACB33FB2585E6330030FB3E /* InstagramMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EACB33FE2585E6330030FB3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EACB34002585E6330030FB3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EACB34022585E6330030FB3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EACB34042585E6350030FB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EACB34072585E6350030FB3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EACB340A2585E6350030FB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EACB340C2585E6350030FB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACB342C2585EACA0030FB3E /* InstagramMVVM2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramMVVM2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACB342F2585EACA0030FB3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EACB34312585EACA0030FB3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EACB34332585EACA0030FB3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EACB34362585EACA0030FB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EACB34382585EACB0030FB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EACB343B2585EACB0030FB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EACB343D2585EACB0030FB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACB344A2585EB2E0030FB3E /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EACB33F82585E6330030FB3E /* Frameworks */ = {
+		EACB34292585EACA0030FB3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,79 +39,120 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EACB33F22585E6330030FB3E = {
+		EACB34232585EACA0030FB3E = {
 			isa = PBXGroup;
 			children = (
-				EACB33FD2585E6330030FB3E /* InstagramMVVM */,
-				EACB33FC2585E6330030FB3E /* Products */,
+				EACB342E2585EACA0030FB3E /* InstagramMVVM2 */,
+				EACB342D2585EACA0030FB3E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EACB33FC2585E6330030FB3E /* Products */ = {
+		EACB342D2585EACA0030FB3E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EACB33FB2585E6330030FB3E /* InstagramMVVM.app */,
+				EACB342C2585EACA0030FB3E /* InstagramMVVM2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EACB33FD2585E6330030FB3E /* InstagramMVVM */ = {
+		EACB342E2585EACA0030FB3E /* InstagramMVVM2 */ = {
 			isa = PBXGroup;
 			children = (
-				EACB33FE2585E6330030FB3E /* AppDelegate.swift */,
-				EACB34002585E6330030FB3E /* SceneDelegate.swift */,
-				EACB34022585E6330030FB3E /* ContentView.swift */,
-				EACB34042585E6350030FB3E /* Assets.xcassets */,
-				EACB34092585E6350030FB3E /* LaunchScreen.storyboard */,
-				EACB340C2585E6350030FB3E /* Info.plist */,
-				EACB34062585E6350030FB3E /* Preview Content */,
+				EACB34492585EB0C0030FB3E /* Utils */,
+				EACB34482585EB010030FB3E /* API */,
+				EACB34472585EAF00030FB3E /* Controller */,
+				EACB34462585EAE70030FB3E /* View */,
+				EACB34452585EADF0030FB3E /* ViewModel */,
+				EACB34442585EADA0030FB3E /* Model */,
+				EACB342F2585EACA0030FB3E /* AppDelegate.swift */,
+				EACB34312585EACA0030FB3E /* SceneDelegate.swift */,
+				EACB34332585EACA0030FB3E /* ViewController.swift */,
+				EACB34352585EACA0030FB3E /* Main.storyboard */,
+				EACB34382585EACB0030FB3E /* Assets.xcassets */,
+				EACB343A2585EACB0030FB3E /* LaunchScreen.storyboard */,
+				EACB343D2585EACB0030FB3E /* Info.plist */,
 			);
-			path = InstagramMVVM;
+			path = InstagramMVVM2;
 			sourceTree = "<group>";
 		};
-		EACB34062585E6350030FB3E /* Preview Content */ = {
+		EACB34442585EADA0030FB3E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EACB34072585E6350030FB3E /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EACB34452585EADF0030FB3E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EACB34462585EAE70030FB3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EACB34472585EAF00030FB3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EACB344A2585EB2E0030FB3E /* MainTabController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EACB34482585EB010030FB3E /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		EACB34492585EB0C0030FB3E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EACB33FA2585E6330030FB3E /* InstagramMVVM */ = {
+		EACB342B2585EACA0030FB3E /* InstagramMVVM2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EACB340F2585E6350030FB3E /* Build configuration list for PBXNativeTarget "InstagramMVVM" */;
+			buildConfigurationList = EACB34402585EACB0030FB3E /* Build configuration list for PBXNativeTarget "InstagramMVVM2" */;
 			buildPhases = (
-				EACB33F72585E6330030FB3E /* Sources */,
-				EACB33F82585E6330030FB3E /* Frameworks */,
-				EACB33F92585E6330030FB3E /* Resources */,
+				EACB34282585EACA0030FB3E /* Sources */,
+				EACB34292585EACA0030FB3E /* Frameworks */,
+				EACB342A2585EACA0030FB3E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = InstagramMVVM;
-			productName = InstagramMVVM;
-			productReference = EACB33FB2585E6330030FB3E /* InstagramMVVM.app */;
+			name = InstagramMVVM2;
+			productName = InstagramMVVM2;
+			productReference = EACB342C2585EACA0030FB3E /* InstagramMVVM2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EACB33F32585E6330030FB3E /* Project object */ = {
+		EACB34242585EACA0030FB3E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1210;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
-					EACB33FA2585E6330030FB3E = {
+					EACB342B2585EACA0030FB3E = {
 						CreatedOnToolsVersion = 12.1;
 					};
 				};
 			};
-			buildConfigurationList = EACB33F62585E6330030FB3E /* Build configuration list for PBXProject "InstagramMVVM" */;
+			buildConfigurationList = EACB34272585EACA0030FB3E /* Build configuration list for PBXProject "InstagramMVVM2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,47 +160,56 @@
 				en,
 				Base,
 			);
-			mainGroup = EACB33F22585E6330030FB3E;
-			productRefGroup = EACB33FC2585E6330030FB3E /* Products */;
+			mainGroup = EACB34232585EACA0030FB3E;
+			productRefGroup = EACB342D2585EACA0030FB3E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EACB33FA2585E6330030FB3E /* InstagramMVVM */,
+				EACB342B2585EACA0030FB3E /* InstagramMVVM2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EACB33F92585E6330030FB3E /* Resources */ = {
+		EACB342A2585EACA0030FB3E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EACB340B2585E6350030FB3E /* LaunchScreen.storyboard in Resources */,
-				EACB34082585E6350030FB3E /* Preview Assets.xcassets in Resources */,
-				EACB34052585E6350030FB3E /* Assets.xcassets in Resources */,
+				EACB343C2585EACB0030FB3E /* LaunchScreen.storyboard in Resources */,
+				EACB34392585EACB0030FB3E /* Assets.xcassets in Resources */,
+				EACB34372585EACA0030FB3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EACB33F72585E6330030FB3E /* Sources */ = {
+		EACB34282585EACA0030FB3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EACB33FF2585E6330030FB3E /* AppDelegate.swift in Sources */,
-				EACB34012585E6330030FB3E /* SceneDelegate.swift in Sources */,
-				EACB34032585E6330030FB3E /* ContentView.swift in Sources */,
+				EACB34342585EACA0030FB3E /* ViewController.swift in Sources */,
+				EACB34302585EACA0030FB3E /* AppDelegate.swift in Sources */,
+				EACB344B2585EB2E0030FB3E /* MainTabController.swift in Sources */,
+				EACB34322585EACA0030FB3E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EACB34092585E6350030FB3E /* LaunchScreen.storyboard */ = {
+		EACB34352585EACA0030FB3E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EACB340A2585E6350030FB3E /* Base */,
+				EACB34362585EACA0030FB3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EACB343A2585EACB0030FB3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACB343B2585EACB0030FB3E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +217,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EACB340D2585E6350030FB3E /* Debug */ = {
+		EACB343E2585EACB0030FB3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +278,7 @@
 			};
 			name = Debug;
 		};
-		EACB340E2585E6350030FB3E /* Release */ = {
+		EACB343F2585EACB0030FB3E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,42 +333,38 @@
 			};
 			name = Release;
 		};
-		EACB34102585E6350030FB3E /* Debug */ = {
+		EACB34412585EACB0030FB3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"InstagramMVVM/Preview Content\"";
 				DEVELOPMENT_TEAM = 5EEQXBZ866;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = InstagramMVVM/Info.plist;
+				INFOPLIST_FILE = InstagramMVVM2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mayu.ue.InstagramMVVM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayu.ue.InstagramMVVM2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EACB34112585E6350030FB3E /* Release */ = {
+		EACB34422585EACB0030FB3E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"InstagramMVVM/Preview Content\"";
 				DEVELOPMENT_TEAM = 5EEQXBZ866;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = InstagramMVVM/Info.plist;
+				INFOPLIST_FILE = InstagramMVVM2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mayu.ue.InstagramMVVM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayu.ue.InstagramMVVM2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,25 +374,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EACB33F62585E6330030FB3E /* Build configuration list for PBXProject "InstagramMVVM" */ = {
+		EACB34272585EACA0030FB3E /* Build configuration list for PBXProject "InstagramMVVM2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EACB340D2585E6350030FB3E /* Debug */,
-				EACB340E2585E6350030FB3E /* Release */,
+				EACB343E2585EACB0030FB3E /* Debug */,
+				EACB343F2585EACB0030FB3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EACB340F2585E6350030FB3E /* Build configuration list for PBXNativeTarget "InstagramMVVM" */ = {
+		EACB34402585EACB0030FB3E /* Build configuration list for PBXNativeTarget "InstagramMVVM2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EACB34102585E6350030FB3E /* Debug */,
-				EACB34112585E6350030FB3E /* Release */,
+				EACB34412585EACB0030FB3E /* Debug */,
+				EACB34422585EACB0030FB3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EACB33F32585E6330030FB3E /* Project object */;
+	rootObject = EACB34242585EACA0030FB3E /* Project object */;
 }
