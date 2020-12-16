@@ -63,6 +63,7 @@ class FeedCell: UICollectionViewCell {
         let label = UILabel()
         label.text = "1 Like"
         label.font = UIFont.boldSystemFont(ofSize: 13)
+        label.textColor = .black
         return label
     }()
     
@@ -70,7 +71,7 @@ class FeedCell: UICollectionViewCell {
         let label = UILabel()
         label.text = "some text here"
         label.font = UIFont.systemFont(ofSize: 14)
-        label.textColor = .lightGray
+        label.textColor = .black
         return label
     }()
     
@@ -78,6 +79,7 @@ class FeedCell: UICollectionViewCell {
         let label = UILabel()
         label.text = "2 days ago"
         label.font = UIFont.boldSystemFont(ofSize: 12)
+        label.textColor = .lightGray
         return label
     }()
     
@@ -103,14 +105,14 @@ class FeedCell: UICollectionViewCell {
         configureActionButtons()
         
         addSubview(likeLabel)
-        likeLabel.anchor(top:profileImageView.bottomAnchor,left: leftAnchor, paddingTop: -4,paddingLeft: 8)
+        likeLabel.anchor(top:likeButton.bottomAnchor,left: leftAnchor, paddingTop: -4,paddingLeft: 8)
         
         
         addSubview(captionLabel)
         captionLabel.anchor(top:likeLabel.bottomAnchor,left: leftAnchor, paddingTop: 8,paddingLeft: 8)
         
         addSubview(postTimeLabel)
-        postTimeLabel.anchor(top:likeLabel.bottomAnchor,left: leftAnchor, paddingTop: 8,paddingLeft: 8)
+        postTimeLabel.anchor(top:captionLabel.bottomAnchor,left: leftAnchor, paddingTop: 8,paddingLeft: 8)
         
     }
     required init?(coder: NSCoder) {
