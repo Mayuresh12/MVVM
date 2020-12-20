@@ -21,6 +21,11 @@
 		EACB345C25861F550030FB3E /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB345B25861F550030FB3E /* ProfileController.swift */; };
 		EACB345F2587849A0030FB3E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB345E2587849A0030FB3E /* FeedCell.swift */; };
 		EACB34652587867E0030FB3E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB34642587867E0030FB3E /* Extensions.swift */; };
+		EACB346A258EB1600030FB3E /* LoginControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB3469258EB1600030FB3E /* LoginControlller.swift */; };
+		EACB346E258EB1770030FB3E /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB346D258EB1770030FB3E /* RegistrationController.swift */; };
+		EACB3471258ED2730030FB3E /* CustomeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB3470258ED2730030FB3E /* CustomeTextField.swift */; };
+		EACB3474258EE5290030FB3E /* AuthenticationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB3473258EE5290030FB3E /* AuthenticationButton.swift */; };
+		EACB3477258EEAB60030FB3E /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB3476258EEAB60030FB3E /* AuthenticationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +45,11 @@
 		EACB345B25861F550030FB3E /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		EACB345E2587849A0030FB3E /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		EACB34642587867E0030FB3E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../../../../Downloads/Extensions.swift; sourceTree = "<group>"; };
+		EACB3469258EB1600030FB3E /* LoginControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginControlller.swift; sourceTree = "<group>"; };
+		EACB346D258EB1770030FB3E /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		EACB3470258ED2730030FB3E /* CustomeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTextField.swift; sourceTree = "<group>"; };
+		EACB3473258EE5290030FB3E /* AuthenticationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationButton.swift; sourceTree = "<group>"; };
+		EACB3476258EEAB60030FB3E /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 		EACB34452585EADF0030FB3E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				EACB3476258EEAB60030FB3E /* AuthenticationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -107,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				EACB345E2587849A0030FB3E /* FeedCell.swift */,
+				EACB3470258ED2730030FB3E /* CustomeTextField.swift */,
+				EACB3473258EE5290030FB3E /* AuthenticationButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -114,6 +127,7 @@
 		EACB34472585EAF00030FB3E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EACB3468258EB13F0030FB3E /* Authentication */,
 				EACB344A2585EB2E0030FB3E /* MainTabController.swift */,
 				EACB344E25861F110030FB3E /* FeedController.swift */,
 				EACB345125861F1F0030FB3E /* SearchController.swift */,
@@ -137,6 +151,15 @@
 				EACB34642587867E0030FB3E /* Extensions.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		EACB3468258EB13F0030FB3E /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				EACB3469258EB1600030FB3E /* LoginControlller.swift */,
+				EACB346D258EB1770030FB3E /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +234,11 @@
 			files = (
 				EACB34342585EACA0030FB3E /* ViewController.swift in Sources */,
 				EACB345F2587849A0030FB3E /* FeedCell.swift in Sources */,
+				EACB3474258EE5290030FB3E /* AuthenticationButton.swift in Sources */,
+				EACB346A258EB1600030FB3E /* LoginControlller.swift in Sources */,
+				EACB3477258EEAB60030FB3E /* AuthenticationViewModel.swift in Sources */,
 				EACB345225861F1F0030FB3E /* SearchController.swift in Sources */,
+				EACB3471258ED2730030FB3E /* CustomeTextField.swift in Sources */,
 				EACB345825861F3F0030FB3E /* NotificationController.swift in Sources */,
 				EACB34302585EACA0030FB3E /* AppDelegate.swift in Sources */,
 				EACB344F25861F110030FB3E /* FeedController.swift in Sources */,
@@ -220,6 +247,7 @@
 				EACB345525861F310030FB3E /* ImageSelectorController.swift in Sources */,
 				EACB344B2585EB2E0030FB3E /* MainTabController.swift in Sources */,
 				EACB34322585EACA0030FB3E /* SceneDelegate.swift in Sources */,
+				EACB346E258EB1770030FB3E /* RegistrationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
