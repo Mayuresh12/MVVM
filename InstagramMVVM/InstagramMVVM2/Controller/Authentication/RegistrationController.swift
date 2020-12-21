@@ -11,6 +11,7 @@ import UIKit
 class RegistraionController: UIViewController {
     
     private var viewModel = RegistrationViewModel()
+    private var profileImage: UIImage?
     
     //MARK: - properties
     
@@ -38,7 +39,8 @@ class RegistraionController: UIViewController {
     private let userNameTextField = CustomTextField(placeholder: "UserName")
 
     private let SignUpButton: UIButton = {
-        let button = AuthenticationButton(buttonName: "Sign Up")
+        let button = AuthenticationButton(buttonName: "Sign Up", type: .system)
+        button.addTarget(self, action: #selector(handleSignUp), for: .touchUpInside)
         return button
     }()
     
@@ -75,7 +77,20 @@ class RegistraionController: UIViewController {
         picker.allowsEditing = true
         present(picker, animated: true, completion: nil)
     }
-    
+    @objc func handleSignUp(){
+        print("I am been called Mayuresh")
+
+        guard let email = emailTextField.text,
+              let password = passwordTextField.text,
+              let fullName = fullNameTextField.text,
+              let userName = userNameTextField.text,
+              let profileImage = profileImage else {
+            return
+        }
+        let credentials = AuthCredentials(email: email, password: password, fullName: fullName, userName: userName, profileImage: profileImage)
+        
+        AuthService.registerUser(withCredential: credentials)
+    }
     //MARK: - Lifecycle
     
     override func viewDidLoad() {

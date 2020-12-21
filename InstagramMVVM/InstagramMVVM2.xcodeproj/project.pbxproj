@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA3D34A5259071F000BD3BA8 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D34A4259071F000BD3BA8 /* ImageUploader.swift */; };
+		EA3D34A92590720C00BD3BA8 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D34A82590720C00BD3BA8 /* AuthService.swift */; };
 		EACB34302585EACA0030FB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB342F2585EACA0030FB3E /* AppDelegate.swift */; };
 		EACB34322585EACA0030FB3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB34312585EACA0030FB3E /* SceneDelegate.swift */; };
 		EACB34342585EACA0030FB3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB34332585EACA0030FB3E /* ViewController.swift */; };
@@ -26,9 +28,16 @@
 		EACB3471258ED2730030FB3E /* CustomeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB3470258ED2730030FB3E /* CustomeTextField.swift */; };
 		EACB3474258EE5290030FB3E /* AuthenticationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB3473258EE5290030FB3E /* AuthenticationButton.swift */; };
 		EACB3477258EEAB60030FB3E /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB3476258EEAB60030FB3E /* AuthenticationViewModel.swift */; };
+		EACB347B259050370030FB3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EACB347A259050370030FB3E /* GoogleService-Info.plist */; };
+		ED5DFAC9F4C136836FA0E5AD /* Pods_InstagramMVVM2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB9CE8D9636DC71007B3050 /* Pods_InstagramMVVM2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74C6DB71F9B8F29D63C55B76 /* Pods-InstagramMVVM2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramMVVM2.release.xcconfig"; path = "Target Support Files/Pods-InstagramMVVM2/Pods-InstagramMVVM2.release.xcconfig"; sourceTree = "<group>"; };
+		A4574EE4F0E697BEE84C6816 /* Pods-InstagramMVVM2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramMVVM2.debug.xcconfig"; path = "Target Support Files/Pods-InstagramMVVM2/Pods-InstagramMVVM2.debug.xcconfig"; sourceTree = "<group>"; };
+		BAB9CE8D9636DC71007B3050 /* Pods_InstagramMVVM2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramMVVM2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3D34A4259071F000BD3BA8 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		EA3D34A82590720C00BD3BA8 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		EACB342C2585EACA0030FB3E /* InstagramMVVM2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramMVVM2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACB342F2585EACA0030FB3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EACB34312585EACA0030FB3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +59,7 @@
 		EACB3470258ED2730030FB3E /* CustomeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTextField.swift; sourceTree = "<group>"; };
 		EACB3473258EE5290030FB3E /* AuthenticationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationButton.swift; sourceTree = "<group>"; };
 		EACB3476258EEAB60030FB3E /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		EACB347A259050370030FB3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED5DFAC9F4C136836FA0E5AD /* Pods_InstagramMVVM2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +79,8 @@
 			children = (
 				EACB342E2585EACA0030FB3E /* InstagramMVVM2 */,
 				EACB342D2585EACA0030FB3E /* Products */,
+				F9D212A82DD18F05E6F4668B /* Pods */,
+				EDC1C9A02D46EF382757F5D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +108,7 @@
 				EACB34382585EACB0030FB3E /* Assets.xcassets */,
 				EACB343A2585EACB0030FB3E /* LaunchScreen.storyboard */,
 				EACB343D2585EACB0030FB3E /* Info.plist */,
+				EACB347A259050370030FB3E /* GoogleService-Info.plist */,
 			);
 			path = InstagramMVVM2;
 			sourceTree = "<group>";
@@ -141,6 +155,8 @@
 		EACB34482585EB010030FB3E /* API */ = {
 			isa = PBXGroup;
 			children = (
+				EA3D34A4259071F000BD3BA8 /* ImageUploader.swift */,
+				EA3D34A82590720C00BD3BA8 /* AuthService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -162,6 +178,23 @@
 			path = Authentication;
 			sourceTree = "<group>";
 		};
+		EDC1C9A02D46EF382757F5D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAB9CE8D9636DC71007B3050 /* Pods_InstagramMVVM2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9D212A82DD18F05E6F4668B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4574EE4F0E697BEE84C6816 /* Pods-InstagramMVVM2.debug.xcconfig */,
+				74C6DB71F9B8F29D63C55B76 /* Pods-InstagramMVVM2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EACB34402585EACB0030FB3E /* Build configuration list for PBXNativeTarget "InstagramMVVM2" */;
 			buildPhases = (
+				31520507F54A6CCFB1830612 /* [CP] Check Pods Manifest.lock */,
 				EACB34282585EACA0030FB3E /* Sources */,
 				EACB34292585EACA0030FB3E /* Frameworks */,
 				EACB342A2585EACA0030FB3E /* Resources */,
+				AD0680C74441B15F16743E2B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,12 +255,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				EACB343C2585EACB0030FB3E /* LaunchScreen.storyboard in Resources */,
+				EACB347B259050370030FB3E /* GoogleService-Info.plist in Resources */,
 				EACB34392585EACB0030FB3E /* Assets.xcassets in Resources */,
 				EACB34372585EACA0030FB3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31520507F54A6CCFB1830612 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstagramMVVM2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD0680C74441B15F16743E2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstagramMVVM2/Pods-InstagramMVVM2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstagramMVVM2/Pods-InstagramMVVM2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstagramMVVM2/Pods-InstagramMVVM2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EACB34282585EACA0030FB3E /* Sources */ = {
@@ -234,6 +312,8 @@
 			files = (
 				EACB34342585EACA0030FB3E /* ViewController.swift in Sources */,
 				EACB345F2587849A0030FB3E /* FeedCell.swift in Sources */,
+				EA3D34A5259071F000BD3BA8 /* ImageUploader.swift in Sources */,
+				EA3D34A92590720C00BD3BA8 /* AuthService.swift in Sources */,
 				EACB3474258EE5290030FB3E /* AuthenticationButton.swift in Sources */,
 				EACB346A258EB1600030FB3E /* LoginControlller.swift in Sources */,
 				EACB3477258EEAB60030FB3E /* AuthenticationViewModel.swift in Sources */,
@@ -391,6 +471,7 @@
 		};
 		EACB34412585EACB0030FB3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4574EE4F0E697BEE84C6816 /* Pods-InstagramMVVM2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -410,6 +491,7 @@
 		};
 		EACB34422585EACB0030FB3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C6DB71F9B8F29D63C55B76 /* Pods-InstagramMVVM2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

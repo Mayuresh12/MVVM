@@ -33,7 +33,7 @@ class LoginController: UIViewController {
     }()
     
     private let loginButton: UIButton = {
-        let button = AuthenticationButton(buttonName: "Log In")
+        let button = AuthenticationButton(buttonName: "Log In", type: .system)
         return button
     }()
     

@@ -8,7 +8,7 @@
 import UIKit
 
 class AuthenticationButton: UIButton {
-    init(buttonName: String) {
+    init(buttonName: String, type buttonType: UIButton.ButtonType) {
         super.init(frame: .zero)
         setTitle(buttonName, for: .normal)
         setTitleColor(.white, for: .normal)
@@ -16,7 +16,7 @@ class AuthenticationButton: UIButton {
         setHeight(50)
         titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
         backgroundColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1).withAlphaComponent(0.5)
-        isEnabled = false
+        //isEnabled = false
     }
     
     required init?(coder: NSCoder) {
