@@ -79,17 +79,22 @@ class RegistraionController: UIViewController {
     }
     @objc func handleSignUp(){
         print("I am been called Mayuresh")
-
+        
         guard let email = emailTextField.text,
               let password = passwordTextField.text,
               let fullName = fullNameTextField.text,
-              let userName = userNameTextField.text,
+              let userName = userNameTextField.text?.lowercased(),
               let profileImage = profileImage else {
             return
         }
-        let credentials = AuthCredentials(email: email, password: password, fullName: fullName, userName: userName, profileImage: profileImage)
+        let credentials =  AuthCredentials(email: email, password: password, fullName: fullName, userName: userName, profileImage: profileImage)
         
-        AuthService.registerUser(withCredential: credentials)
+        AuthService.registerUser(withCredential: credentials) { error in
+            if let error = error {
+                print("DEBUG: failed to register the user \(error.localizedDescription)")
+                return
+            }
+            self.dismiss(animated: true, completion: nil)        }
     }
     //MARK: - Lifecycle
     
@@ -145,6 +150,7 @@ extension RegistraionController: UIImagePickerControllerDelegate, UINavigationCo
         guard let selectedImage = info[.editedImage] as? UIImage else {
             return
         }
+        profileImage = selectedImage
         plusPhotoButton.layer.cornerRadius = plusPhotoButton.frame.width / 2
         plusPhotoButton.layer.masksToBounds = true
         plusPhotoButton.layer.borderWidth = 2

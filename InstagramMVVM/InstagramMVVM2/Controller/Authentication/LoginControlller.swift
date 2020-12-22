@@ -34,6 +34,7 @@ class LoginController: UIViewController {
     
     private let loginButton: UIButton = {
         let button = AuthenticationButton(buttonName: "Log In", type: .system)
+        button.addTarget(self, action: #selector(handleLogin), for: .touchUpInside)
         return button
     }()
     
@@ -59,6 +60,20 @@ class LoginController: UIViewController {
     }
     
     //MARK: - Actions
+    
+    @objc func handleLogin() {
+        guard let email = emailTextField.text,
+              let password = passwordTextField.text else {
+            return
+        }
+        AuthService.logUserIn(withEmail: email, password: password) { (result , error) in
+            if let error = error {
+                print("DEBUG: failed to log user in \(error.localizedDescription)")
+                return
+            }
+            self.dismiss(animated: true, completion: nil)
+        }
+    }
     
     @objc func handleShowSignUp()  {
         let controller = RegistraionController()
