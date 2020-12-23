@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		EA3D34A5259071F000BD3BA8 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D34A4259071F000BD3BA8 /* ImageUploader.swift */; };
 		EA3D34A92590720C00BD3BA8 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D34A82590720C00BD3BA8 /* AuthService.swift */; };
+		EA3D350D2593530900BD3BA8 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D350C2593530900BD3BA8 /* ProfileCell.swift */; };
+		EA3D35112593531600BD3BA8 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D35102593531600BD3BA8 /* ProfileHeader.swift */; };
 		EACB34302585EACA0030FB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB342F2585EACA0030FB3E /* AppDelegate.swift */; };
 		EACB34322585EACA0030FB3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB34312585EACA0030FB3E /* SceneDelegate.swift */; };
 		EACB34342585EACA0030FB3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB34332585EACA0030FB3E /* ViewController.swift */; };
@@ -38,6 +40,8 @@
 		BAB9CE8D9636DC71007B3050 /* Pods_InstagramMVVM2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramMVVM2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3D34A4259071F000BD3BA8 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		EA3D34A82590720C00BD3BA8 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		EA3D350C2593530900BD3BA8 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		EA3D35102593531600BD3BA8 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 		EACB342C2585EACA0030FB3E /* InstagramMVVM2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramMVVM2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACB342F2585EACA0030FB3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EACB34312585EACA0030FB3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA3D350B259352EF00BD3BA8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EA3D350C2593530900BD3BA8 /* ProfileCell.swift */,
+				EA3D35102593531600BD3BA8 /* ProfileHeader.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		EACB34232585EACA0030FB3E = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +144,7 @@
 		EACB34462585EAE70030FB3E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EA3D350B259352EF00BD3BA8 /* Profile */,
 				EACB345E2587849A0030FB3E /* FeedCell.swift */,
 				EACB3470258ED2730030FB3E /* CustomeTextField.swift */,
 				EACB3473258EE5290030FB3E /* AuthenticationButton.swift */,
@@ -318,6 +332,7 @@
 				EACB346A258EB1600030FB3E /* LoginControlller.swift in Sources */,
 				EACB3477258EEAB60030FB3E /* AuthenticationViewModel.swift in Sources */,
 				EACB345225861F1F0030FB3E /* SearchController.swift in Sources */,
+				EA3D35112593531600BD3BA8 /* ProfileHeader.swift in Sources */,
 				EACB3471258ED2730030FB3E /* CustomeTextField.swift in Sources */,
 				EACB345825861F3F0030FB3E /* NotificationController.swift in Sources */,
 				EACB34302585EACA0030FB3E /* AppDelegate.swift in Sources */,
@@ -325,6 +340,7 @@
 				EACB345C25861F550030FB3E /* ProfileController.swift in Sources */,
 				EACB34652587867E0030FB3E /* Extensions.swift in Sources */,
 				EACB345525861F310030FB3E /* ImageSelectorController.swift in Sources */,
+				EA3D350D2593530900BD3BA8 /* ProfileCell.swift in Sources */,
 				EACB344B2585EB2E0030FB3E /* MainTabController.swift in Sources */,
 				EACB34322585EACA0030FB3E /* SceneDelegate.swift in Sources */,
 				EACB346E258EB1770030FB3E /* RegistrationController.swift in Sources */,
