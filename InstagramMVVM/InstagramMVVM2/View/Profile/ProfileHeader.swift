@@ -90,12 +90,18 @@ class ProfileHeader: UICollectionReusableView {
         backgroundColor = .white
         
     addSubview(profileImageView)
-        profileImageView.anchor(top: topAnchor, left: leftAnchor, paddingTop: 16, paddingLeft: 12)
+        profileImageView.anchor(top: topAnchor,
+                                left: leftAnchor,
+                                paddingTop: 16,
+                                paddingLeft: 12)
         profileImageView.setDimensions(height: 80, width: 80)
         profileImageView.layer.cornerRadius = 80/2
         
         addSubview(nameLabel)
-        nameLabel.anchor(top: profileImageView.bottomAnchor, left: leftAnchor, paddingTop: 12, paddingLeft:  12)
+        nameLabel.anchor(top: profileImageView.bottomAnchor,
+                         left: leftAnchor,
+                         paddingTop: 12,
+                         paddingLeft:  12)
         
         addSubview(editProfileFollowButton)
         editProfileFollowButton.anchor(top: nameLabel.bottomAnchor,
