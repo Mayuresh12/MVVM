@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA248D2A25A078AB00B5AF98 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA248D2925A078AB00B5AF98 /* UserService.swift */; };
+		EA248D2D25A078DE00B5AF98 /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA248D2C25A078DE00B5AF98 /* Contants.swift */; };
+		EA248D3025A07EBB00B5AF98 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA248D2F25A07EBB00B5AF98 /* User.swift */; };
 		EA3D34A5259071F000BD3BA8 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D34A4259071F000BD3BA8 /* ImageUploader.swift */; };
 		EA3D34A92590720C00BD3BA8 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D34A82590720C00BD3BA8 /* AuthService.swift */; };
 		EA3D350D2593530900BD3BA8 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D350C2593530900BD3BA8 /* ProfileCell.swift */; };
@@ -38,6 +41,9 @@
 		74C6DB71F9B8F29D63C55B76 /* Pods-InstagramMVVM2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramMVVM2.release.xcconfig"; path = "Target Support Files/Pods-InstagramMVVM2/Pods-InstagramMVVM2.release.xcconfig"; sourceTree = "<group>"; };
 		A4574EE4F0E697BEE84C6816 /* Pods-InstagramMVVM2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramMVVM2.debug.xcconfig"; path = "Target Support Files/Pods-InstagramMVVM2/Pods-InstagramMVVM2.debug.xcconfig"; sourceTree = "<group>"; };
 		BAB9CE8D9636DC71007B3050 /* Pods_InstagramMVVM2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramMVVM2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA248D2925A078AB00B5AF98 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		EA248D2C25A078DE00B5AF98 /* Contants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		EA248D2F25A07EBB00B5AF98 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EA3D34A4259071F000BD3BA8 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		EA3D34A82590720C00BD3BA8 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		EA3D350C2593530900BD3BA8 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
@@ -129,6 +135,7 @@
 		EACB34442585EADA0030FB3E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EA248D2F25A07EBB00B5AF98 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,6 +178,7 @@
 			children = (
 				EA3D34A4259071F000BD3BA8 /* ImageUploader.swift */,
 				EA3D34A82590720C00BD3BA8 /* AuthService.swift */,
+				EA248D2925A078AB00B5AF98 /* UserService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -179,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				EACB34642587867E0030FB3E /* Extensions.swift */,
+				EA248D2C25A078DE00B5AF98 /* Contants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -333,17 +342,20 @@
 				EACB3477258EEAB60030FB3E /* AuthenticationViewModel.swift in Sources */,
 				EACB345225861F1F0030FB3E /* SearchController.swift in Sources */,
 				EA3D35112593531600BD3BA8 /* ProfileHeader.swift in Sources */,
+				EA248D2D25A078DE00B5AF98 /* Contants.swift in Sources */,
 				EACB3471258ED2730030FB3E /* CustomeTextField.swift in Sources */,
 				EACB345825861F3F0030FB3E /* NotificationController.swift in Sources */,
 				EACB34302585EACA0030FB3E /* AppDelegate.swift in Sources */,
 				EACB344F25861F110030FB3E /* FeedController.swift in Sources */,
 				EACB345C25861F550030FB3E /* ProfileController.swift in Sources */,
+				EA248D2A25A078AB00B5AF98 /* UserService.swift in Sources */,
 				EACB34652587867E0030FB3E /* Extensions.swift in Sources */,
 				EACB345525861F310030FB3E /* ImageSelectorController.swift in Sources */,
 				EA3D350D2593530900BD3BA8 /* ProfileCell.swift in Sources */,
 				EACB344B2585EB2E0030FB3E /* MainTabController.swift in Sources */,
 				EACB34322585EACA0030FB3E /* SceneDelegate.swift in Sources */,
 				EACB346E258EB1770030FB3E /* RegistrationController.swift in Sources */,
+				EA248D3025A07EBB00B5AF98 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
