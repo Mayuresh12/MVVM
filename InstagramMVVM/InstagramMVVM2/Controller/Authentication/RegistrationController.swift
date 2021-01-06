@@ -12,6 +12,7 @@ class RegistraionController: UIViewController {
     
     private var viewModel = RegistrationViewModel()
     private var profileImage: UIImage?
+    weak var delegate: AuthenticateDelegate?
     
     //MARK: - properties
     
@@ -94,7 +95,8 @@ class RegistraionController: UIViewController {
                 print("DEBUG: failed to register the user \(error.localizedDescription)")
                 return
             }
-            self.dismiss(animated: true, completion: nil)        }
+            self.delegate?.authenticationDidComplete()
+        }
     }
     //MARK: - Lifecycle
     
