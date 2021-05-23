@@ -9,6 +9,17 @@
 import UIKit
 import JGProgressHUD
 
+extension UIButton {
+    func attributedTitle2(firstPart: String, secondPart: String) {
+        let atts: [NSAttributedString.Key : Any] = [.foregroundColor: UIColor(white: 1, alpha: 0.7),
+                                                    .font: UIFont.systemFont(ofSize: 16)]
+        let attributedTitle = NSMutableAttributedString(string: "\(firstPart) ", attributes: atts)
+        let boldAtts: [NSAttributedString.Key : Any] = [.foregroundColor: UIColor(white: 1, alpha: 0.7),
+                                                    .font: UIFont.boldSystemFont(ofSize: 16)]
+        attributedTitle.append(NSAttributedString(string: secondPart, attributes: boldAtts))
+        setAttributedTitle(attributedTitle, for: .normal)
+    }
+}
 extension UIViewController {
     static let hud = JGProgressHUD(style: .dark)
     
