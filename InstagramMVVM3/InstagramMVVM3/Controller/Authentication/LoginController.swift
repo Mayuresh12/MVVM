@@ -50,6 +50,7 @@ class LoginController: UIViewController{
         button.layer.cornerRadius = 5
         button.setHeight(50)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
+        button.addTarget(self, action: #selector(handleLogin), for: .touchUpInside)
         return button
     }()
     // MARK: Lifecycle Methods
@@ -71,6 +72,20 @@ class LoginController: UIViewController{
             viewModel.password = sender.text
         }
         updateForm()
+    }
+    @objc func handleLogin(){
+        guard let email = emailTextField.text,
+              let password = passwordTextField.text
+              else {
+            return
+        }
+        AuthService.logUserIn(withEmail: email, withPassword: password) { (results, error) in
+            if let error = error {
+               print("DEBUG: failed to log user in \(error.localizedDescription)")
+               return
+           }
+            self.dismiss(animated: true, completion: nil)
+        }
     }
     // MARK: Helpers
     

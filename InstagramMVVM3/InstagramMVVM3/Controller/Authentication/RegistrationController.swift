@@ -13,6 +13,7 @@ class RegistrationController: UIViewController {
     // MARK: Properties
     
     private var viewModel = RegistrationViewModel()
+    private var profileImage: UIImage?
     
     private let plusPhotoButton: UIButton = {
         let button = UIButton(type: .system)
@@ -47,6 +48,7 @@ class RegistrationController: UIViewController {
         button.backgroundColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1).withAlphaComponent(0.5)
         button.isEnabled = false
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
+        button.addTarget(self, action: #selector(handleSignUp), for: .touchUpInside)
         return button
     }()
     
@@ -89,6 +91,24 @@ class RegistrationController: UIViewController {
         picker.allowsEditing = true
         present(picker, animated: true
                 , completion: nil)
+    }
+    
+    @objc func handleSignUp(){
+        guard let email = emailTextField.text,
+              let password = passwordTextField.text,
+              let fullname = fullNameTextField.text,
+              let username = userNameTextField.text?.lowercased(),
+              let profileImage = profileImage else {
+            return
+        }
+        let credentials = AuthCredentials(email: email, password: password, fullname: fullname, username: username, profileImage: profileImage)
+        AuthService.registerUser(withCredentials: credentials) { (error) in
+             if let error = error {
+                print("DEBUG: failed to register the user \(error.localizedDescription)")
+                return
+            }
+            self.dismiss(animated: true, completion: nil)
+        }
     }
     // MARK:  Helpers
     
@@ -141,6 +161,7 @@ extension RegistrationController: UIImagePickerControllerDelegate, UINavigationC
         guard let selectedImage = info[.editedImage] as? UIImage else {
             return
         }
+        profileImage = selectedImage
         plusPhotoButton.layer.cornerRadius = plusPhotoButton.frame.width / 2
         plusPhotoButton.layer.masksToBounds = true
         plusPhotoButton.layer.borderColor = UIColor.white.cgColor
