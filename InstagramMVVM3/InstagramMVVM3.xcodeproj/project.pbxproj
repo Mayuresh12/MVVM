@@ -35,6 +35,8 @@
 		EAC6A9DA265F1DFA000FFA42 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9D9265F1DFA000FFA42 /* Constants.swift */; };
 		EAC6A9DD265F2379000FFA42 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9DC265F2379000FFA42 /* User.swift */; };
 		EAC6A9E0265F2D25000FFA42 /* ProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9DF265F2D25000FFA42 /* ProfileHeaderViewModel.swift */; };
+		EAC6A9E3265F859F000FFA42 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9E2265F859F000FFA42 /* UserCell.swift */; };
+		EAC6A9E6265F9770000FFA42 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9E5265F9770000FFA42 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		EAC6A9D9265F1DFA000FFA42 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EAC6A9DC265F2379000FFA42 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EAC6A9DF265F2D25000FFA42 /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderViewModel.swift; sourceTree = "<group>"; };
+		EAC6A9E2265F859F000FFA42 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		EAC6A9E5265F9770000FFA42 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,7 @@
 				EAC6A9D1265EF3BC000FFA42 /* Profile */,
 				EA8060862659A95A00D41B20 /* FeedCell.swift */,
 				EA80609B265A18E700D41B20 /* CustomTextField.swift */,
+				EAC6A9E2265F859F000FFA42 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 			children = (
 				EA80609F265A31C100D41B20 /* AuthenticationViewModel.swift */,
 				EAC6A9DF265F2D25000FFA42 /* ProfileHeaderViewModel.swift */,
+				EAC6A9E5265F9770000FFA42 /* UserViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -341,6 +347,7 @@
 				EA8060872659A95A00D41B20 /* FeedCell.swift in Sources */,
 				EA61CE4B2657AA7F009F3BBB /* ImageSelectorController.swift in Sources */,
 				EA8060A0265A31C100D41B20 /* AuthenticationViewModel.swift in Sources */,
+				EAC6A9E3265F859F000FFA42 /* UserCell.swift in Sources */,
 				EA61CE4E2657AA92009F3BBB /* NotificationController.swift in Sources */,
 				EA61CE482657AA64009F3BBB /* SearchController.swift in Sources */,
 				EAC6A9DD265F2379000FFA42 /* User.swift in Sources */,
@@ -355,6 +362,7 @@
 				EAC6A9D7265F1DA1000FFA42 /* UserService.swift in Sources */,
 				EAC6A9CF265EF31C000FFA42 /* ProfileCell.swift in Sources */,
 				EA190A9826579F7C00F85362 /* SceneDelegate.swift in Sources */,
+				EAC6A9E6265F9770000FFA42 /* UserViewModel.swift in Sources */,
 				EA8060972659FFCF00D41B20 /* RegistrationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

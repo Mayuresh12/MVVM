@@ -10,7 +10,6 @@ import UIKit
 class ProfileCell: UICollectionViewCell {
     
     //MARK: Properties
-    
     private let profileImageView: UIImageView = {
         let iv = UIImageView()
         iv.image = #imageLiteral(resourceName: "venom-7")
@@ -18,6 +17,7 @@ class ProfileCell: UICollectionViewCell {
         iv.clipsToBounds = true
         return iv
     }()
+    
     //MARK: Lifecycle
     override init(frame: CGRect) {
         super.init(frame: frame)
