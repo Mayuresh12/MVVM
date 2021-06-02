@@ -37,6 +37,8 @@
 		EAC6A9E0265F2D25000FFA42 /* ProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9DF265F2D25000FFA42 /* ProfileHeaderViewModel.swift */; };
 		EAC6A9E3265F859F000FFA42 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9E2265F859F000FFA42 /* UserCell.swift */; };
 		EAC6A9E6265F9770000FFA42 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9E5265F9770000FFA42 /* UserViewModel.swift */; };
+		EAC6A9E92667453B000FFA42 /* UploadPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9E82667453B000FFA42 /* UploadPostController.swift */; };
+		EAC6A9EC266748A4000FFA42 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9EB266748A4000FFA42 /* InputTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +76,8 @@
 		EAC6A9DF265F2D25000FFA42 /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderViewModel.swift; sourceTree = "<group>"; };
 		EAC6A9E2265F859F000FFA42 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		EAC6A9E5265F9770000FFA42 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		EAC6A9E82667453B000FFA42 /* UploadPostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostController.swift; sourceTree = "<group>"; };
+		EAC6A9EB266748A4000FFA42 /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +187,7 @@
 				EA61CE4A2657AA7F009F3BBB /* ImageSelectorController.swift */,
 				EA61CE4D2657AA92009F3BBB /* NotificationController.swift */,
 				EA61CE502657AAA3009F3BBB /* ProfileController.swift */,
+				EAC6A9E82667453B000FFA42 /* UploadPostController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 			children = (
 				EA8060892659ABCC00D41B20 /* Extensions.swift */,
 				EAC6A9D9265F1DFA000FFA42 /* Constants.swift */,
+				EAC6A9EB266748A4000FFA42 /* InputTextView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -341,6 +347,7 @@
 			files = (
 				EA80609C265A18E700D41B20 /* CustomTextField.swift in Sources */,
 				EAC6A9D3265EF3E2000FFA42 /* ProfileHeader.swift in Sources */,
+				EAC6A9E92667453B000FFA42 /* UploadPostController.swift in Sources */,
 				EA190A9A26579F7C00F85362 /* ViewController.swift in Sources */,
 				EA8060922659FFA000D41B20 /* LoginController.swift in Sources */,
 				EA80608A2659ABCC00D41B20 /* Extensions.swift in Sources */,
@@ -353,6 +360,7 @@
 				EAC6A9DD265F2379000FFA42 /* User.swift in Sources */,
 				EA190A9626579F7C00F85362 /* AppDelegate.swift in Sources */,
 				EAC6A9E0265F2D25000FFA42 /* ProfileHeaderViewModel.swift in Sources */,
+				EAC6A9EC266748A4000FFA42 /* InputTextView.swift in Sources */,
 				EAC6A9DA265F1DFA000FFA42 /* Constants.swift in Sources */,
 				EA61CE512657AAA3009F3BBB /* ProfileController.swift in Sources */,
 				EA61CE452657AA4C009F3BBB /* FeedController.swift in Sources */,
