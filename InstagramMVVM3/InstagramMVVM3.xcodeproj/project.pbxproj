@@ -39,6 +39,7 @@
 		EAC6A9E6265F9770000FFA42 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9E5265F9770000FFA42 /* UserViewModel.swift */; };
 		EAC6A9E92667453B000FFA42 /* UploadPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9E82667453B000FFA42 /* UploadPostController.swift */; };
 		EAC6A9EC266748A4000FFA42 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9EB266748A4000FFA42 /* InputTextView.swift */; };
+		EAC6A9EF2668BF49000FFA42 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9EE2668BF49000FFA42 /* PostService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		EAC6A9E5265F9770000FFA42 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		EAC6A9E82667453B000FFA42 /* UploadPostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostController.swift; sourceTree = "<group>"; };
 		EAC6A9EB266748A4000FFA42 /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
+		EAC6A9EE2668BF49000FFA42 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 				EAC0905E265AF91000FBB7BE /* ImageUploader.swift */,
 				EAC09061265AF91C00FBB7BE /* AuthService.swift */,
 				EAC6A9D6265F1DA1000FFA42 /* UserService.swift */,
+				EAC6A9EE2668BF49000FFA42 /* PostService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				EAC0905F265AF91000FBB7BE /* ImageUploader.swift in Sources */,
 				EAC09062265AF91C00FBB7BE /* AuthService.swift in Sources */,
 				EAC6A9D7265F1DA1000FFA42 /* UserService.swift in Sources */,
+				EAC6A9EF2668BF49000FFA42 /* PostService.swift in Sources */,
 				EAC6A9CF265EF31C000FFA42 /* ProfileCell.swift in Sources */,
 				EA190A9826579F7C00F85362 /* SceneDelegate.swift in Sources */,
 				EAC6A9E6265F9770000FFA42 /* UserViewModel.swift in Sources */,

@@ -7,9 +7,21 @@
 
 import UIKit
 
+protocol UploadPostControllerDelegate: class {
+    func controllerDidFinishUploadingPost(_ controller: UploadPostController)
+}
+
 class UploadPostController: UIViewController {
     
     //MARK: Properties
+    
+    weak var delegate: UploadPostControllerDelegate?
+    
+    var selectedImage: UIImage? {
+        didSet {
+            photoImageView.image = selectedImage
+        }
+    }
     
     private let photoImageView: UIImageView = {
         let iv = UIImageView()
@@ -46,7 +58,22 @@ class UploadPostController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    @objc func didTapDone() {}
+    @objc func didTapDone() {
+        guard let image = selectedImage, let captionText = captionTextView.text else {
+            return
+        }
+        
+        showLoader(true)
+        
+        PostService.uploadPost(caption: captionText, image: image) { error in
+            self.showLoader(false)
+            if let error = error {
+                print("Failed  to upload the imaage \(error.localizedDescription)")
+                return
+            }
+            self.delegate?.controllerDidFinishUploadingPost(self)
+        }
+    }
     
     //MARK: Helpers
     func checkMaxLength(_ textView: UITextView)  {
@@ -96,5 +123,14 @@ extension UploadPostController: UITextViewDelegate {
         let count = textView.text.count
         characterCountLabel.text = "\(count)/100"
         
+    }
+}
+
+//MARK: UploadPostControllerDelegate
+
+extension MainTabController: UploadPostControllerDelegate{
+    func controllerDidFinishUploadingPost(_ controller: UploadPostController) {
+        selectedIndex = 0
+        controller.dismiss(animated: true, completion: nil)
     }
 }
