@@ -10,9 +10,13 @@ import UIKit
 class ProfileCell: UICollectionViewCell {
     
     //MARK: Properties
+    
+    var viewModel: PostViewModel? {
+        didSet { configure() }
+    }
+    
     private let profileImageView: UIImageView = {
         let iv = UIImageView()
-        iv.image = #imageLiteral(resourceName: "venom-7")
         iv.contentMode = .scaleAspectFill
         iv.clipsToBounds = true
         return iv
@@ -30,5 +34,10 @@ class ProfileCell: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-
+    func configure() {
+        guard  let viewModel = viewModel else {
+            return
+        }
+        profileImageView.sd_setImage(with: viewModel.imageUrl)
+    }
 }
