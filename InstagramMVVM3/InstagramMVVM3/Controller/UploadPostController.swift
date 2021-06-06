@@ -17,6 +17,8 @@ class UploadPostController: UIViewController {
     
     weak var delegate: UploadPostControllerDelegate?
     
+    var currentUser: User?
+    
     var selectedImage: UIImage? {
         didSet {
             photoImageView.image = selectedImage
@@ -59,13 +61,15 @@ class UploadPostController: UIViewController {
     }
     
     @objc func didTapDone() {
-        guard let image = selectedImage, let captionText = captionTextView.text else {
+        guard let image = selectedImage,
+              let captionText = captionTextView.text,
+              let user = currentUser else {
             return
         }
         
         showLoader(true)
         
-        PostService.uploadPost(caption: captionText, image: image) { error in
+        PostService.uploadPost(caption: captionText, image: image, user: user) { error in
             self.showLoader(false)
             if let error = error {
                 print("Failed  to upload the imaage \(error.localizedDescription)")
@@ -132,5 +136,8 @@ extension MainTabController: UploadPostControllerDelegate{
     func controllerDidFinishUploadingPost(_ controller: UploadPostController) {
         selectedIndex = 0
         controller.dismiss(animated: true, completion: nil)
+        guard let feedNav = viewControllers?.first as? UINavigationController else { return }
+        guard let feed = feedNav.viewControllers.first as? FeedController else { return }
+        feed.handleRefresh()
     }
 }
