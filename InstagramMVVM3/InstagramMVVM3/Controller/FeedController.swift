@@ -113,8 +113,24 @@ extension FeedController: UICollectionViewDelegateFlowLayout {
 //MARK: FeedCellDelegate
 
 extension FeedController: FeedCellDelegate {
+    
+    
     func cell(_ cell: FeedCell, wantsToShowCommentsFor post: Post) {
         let controller = CommentController(post: post)
         navigationController?.pushViewController(controller, animated: true)
     }
+    
+    func cell(_ cell: FeedCell, didLike post: Post ) {
+        cell.viewModel?.post.didLike.toggle()
+        
+        if post.didLike {
+            
+        } else {
+            PostService.likePost(post: post) { error in
+                cell.likeButton.setImage(#imageLiteral(resourceName: "like_selected"), for: .normal)
+                cell.likeButton.tintColor = .red
+            }
+        }
+    }
+
 }

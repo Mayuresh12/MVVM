@@ -47,10 +47,11 @@ class FeedCell: UICollectionViewCell {
          return iv
     }()
     
-    private lazy var likeButton: UIButton = {
+    lazy var likeButton: UIButton = {
         let button = UIButton(type: .system)
         button.setImage(#imageLiteral(resourceName: "like_unselected"), for: .normal)
         button.tintColor = .black
+        button.addTarget(self, action: #selector(didTapLink), for: .touchUpInside)
         return button
     }()
     
@@ -141,6 +142,11 @@ class FeedCell: UICollectionViewCell {
 
     @objc func didTapUsername (){
         print("DEBUG: did tap username button.")
+    }
+    
+    @objc func didTapLink() {
+        guard let viewModel = viewModel else { return }
+        delegate?.cell(self, didLike: viewModel.post)
     }
     
     // MARK : helpers
