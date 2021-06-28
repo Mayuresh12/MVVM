@@ -5,7 +5,7 @@
 //  Created by Mayuresh Rao on 6/3/21.
 //
 
-import Foundation
+import UIKit
 
 struct PostViewModel {
     var post: Post
@@ -27,6 +27,16 @@ struct PostViewModel {
     }
     
     var likes: Int { return post.likes }
+    
+    var likeButtonTintColor: UIColor {
+        return  post.didLike ? .red : .black
+    }
+    
+
+    var likeButtonImage: UIImage? {
+        let imageName = post.didLike ? "like_selected" : "like_unselected"
+        return UIImage(named: imageName)
+    }
     
     var likesLabelText: String {
         if post.likes != 1 {

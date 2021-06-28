@@ -48,6 +48,7 @@
 		EAC6A9EF2668BF49000FFA42 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9EE2668BF49000FFA42 /* PostService.swift */; };
 		EAC6A9F226693004000FFA42 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9F126693004000FFA42 /* Post.swift */; };
 		EAC6A9F52669350F000FFA42 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9F42669350F000FFA42 /* PostViewModel.swift */; };
+		EADEABD626874F07000DD08E /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEABD526874F07000DD08E /* NotificationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +97,7 @@
 		EAC6A9EE2668BF49000FFA42 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		EAC6A9F126693004000FFA42 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		EAC6A9F42669350F000FFA42 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		EADEABD526874F07000DD08E /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				EAC6A9E2265F859F000FFA42 /* UserCell.swift */,
 				EA7F1FFB266F5EE400438C56 /* CommentCell.swift */,
 				EA7F1FFE266F71B100438C56 /* CommentInputAccesoryView.swift */,
+				EADEABD526874F07000DD08E /* NotificationCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				EAC6A9CF265EF31C000FFA42 /* ProfileCell.swift in Sources */,
 				EA190A9826579F7C00F85362 /* SceneDelegate.swift in Sources */,
 				EAC6A9E6265F9770000FFA42 /* UserViewModel.swift in Sources */,
+				EADEABD626874F07000DD08E /* NotificationCell.swift in Sources */,
 				EA8060972659FFCF00D41B20 /* RegistrationController.swift in Sources */,
 				EA7F1FFC266F5EE400438C56 /* CommentCell.swift in Sources */,
 			);
