@@ -1,4 +1,4 @@
-//
+///
 //  AuthenticationViewModel.swift
 //  InstagramMVVM3
 //
