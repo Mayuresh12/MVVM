@@ -50,6 +50,7 @@
 		EAC6A9F52669350F000FFA42 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9F42669350F000FFA42 /* PostViewModel.swift */; };
 		EADEABD626874F07000DD08E /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEABD526874F07000DD08E /* NotificationCell.swift */; };
 		EADEABDA26945012000DD08E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEABD926945012000DD08E /* Notifications.swift */; };
+		EADEABDE269453D8000DD08E /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEABDD269453D8000DD08E /* NotificationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +101,7 @@
 		EAC6A9F42669350F000FFA42 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		EADEABD526874F07000DD08E /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		EADEABD926945012000DD08E /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		EADEABDD269453D8000DD08E /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +233,7 @@
 				EAC6A9D6265F1DA1000FFA42 /* UserService.swift */,
 				EAC6A9EE2668BF49000FFA42 /* PostService.swift */,
 				EA4F475126709CA8005B27A5 /* CommentService.swift */,
+				EADEABDD269453D8000DD08E /* NotificationService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 				EA8060922659FFA000D41B20 /* LoginController.swift in Sources */,
 				EA80608A2659ABCC00D41B20 /* Extensions.swift in Sources */,
 				EA8060872659A95A00D41B20 /* FeedCell.swift in Sources */,
+				EADEABDE269453D8000DD08E /* NotificationService.swift in Sources */,
 				EA4F475226709CA8005B27A5 /* CommentService.swift in Sources */,
 				EA4F47552670A68D005B27A5 /* Comment.swift in Sources */,
 				EA61CE4B2657AA7F009F3BBB /* ImageSelectorController.swift in Sources */,
