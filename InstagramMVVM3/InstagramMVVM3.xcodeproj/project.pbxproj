@@ -49,6 +49,7 @@
 		EAC6A9F226693004000FFA42 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9F126693004000FFA42 /* Post.swift */; };
 		EAC6A9F52669350F000FFA42 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6A9F42669350F000FFA42 /* PostViewModel.swift */; };
 		EADEABD626874F07000DD08E /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEABD526874F07000DD08E /* NotificationCell.swift */; };
+		EADEABDA26945012000DD08E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEABD926945012000DD08E /* Notifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,7 @@
 		EAC6A9F126693004000FFA42 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		EAC6A9F42669350F000FFA42 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		EADEABD526874F07000DD08E /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		EADEABD926945012000DD08E /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				EAC6A9DC265F2379000FFA42 /* User.swift */,
 				EAC6A9F126693004000FFA42 /* Post.swift */,
 				EA4F47542670A68D005B27A5 /* Comment.swift */,
+				EADEABD926945012000DD08E /* Notifications.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				EAC6A9DD265F2379000FFA42 /* User.swift in Sources */,
 				EA190A9626579F7C00F85362 /* AppDelegate.swift in Sources */,
 				EAC6A9E0265F2D25000FFA42 /* ProfileHeaderViewModel.swift in Sources */,
+				EADEABDA26945012000DD08E /* Notifications.swift in Sources */,
 				EAC6A9EC266748A4000FFA42 /* InputTextView.swift in Sources */,
 				EAC6A9DA265F1DFA000FFA42 /* Constants.swift in Sources */,
 				EA61CE512657AAA3009F3BBB /* ProfileController.swift in Sources */,
