@@ -1,2 +1,2 @@
 # MVVM
-Create a simple MVVM app.
+Create a simple MVVM app
